@@ -1,0 +1,6 @@
+name: Nemesis
+version: '${version}'
+main: net.luxcube.minecraft.NemesisPlugin
+api-version: '1.20'
+authors: [Milk_And_Cereal]
+description: The ultimate security to permanently avoid problems

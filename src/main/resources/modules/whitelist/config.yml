@@ -1,0 +1,5 @@
+# This will broadcast a message to let the players inside that someone's
+# Is trying to join while they are not whitelisted.
+whitelist-warning:
+  enabled: true
+  attempt-join-message: '&#FF474C%player% &#d2e5e5attempted to join.'

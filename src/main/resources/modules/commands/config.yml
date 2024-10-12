@@ -1,0 +1,10 @@
+# This will notify users with permission nemesis.commands.spy
+# Whenever someone types a command.
+#
+# It's toggle command is /nemesis spy.
+commands-spy:
+  enabled: true
+  format: '&#ADD8E6[SPY] %player%&#d2e5e5 has executed &#ADD8E6%command%'
+  toggle-messages:
+    on: '&#d2e5e5You''ve &#ADD8E6enabled &#d2e5e5your commands spy.'
+    off: '&#d2e5e5You''ve &#ADD8E6disabled &#d2e5e5your commands spy.'

@@ -1,0 +1,18 @@
+# If there's an operator player not listed in list, it'll automatically take action.
+whitelist-operators:
+  enabled: true
+  force-de-op: true
+  commands:
+    - 'ban %player% Having OP without being whitelisted in config!'
+  whitelist:
+    - 'Milk_And_Cereal'
+
+
+# This will check if someone was given Operator not through console, and automatically take action.
+checking-operators:
+  enabled: true
+  force-de-op: true
+  # Every how much time it will check in ticks.
+  schedule: 20
+  commands:
+    - 'ban %player% You have not obtained OP from console.'
